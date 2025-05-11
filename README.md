@@ -30,7 +30,7 @@ Konfigurasi email berada di file `.env`:
 
 ```env
 EMAIL_FROM_ADDRESS=notifikasi@domainanda.com
-EMAIL_FROM_NAME=Romantis Notifikasi
+EMAIL_FROM_NAME=Sistem Romantis
 EMAIL_SMTP_HOST=smtp.gmail.com
 EMAIL_SMTP_USER=akun@gmail.com
 EMAIL_SMTP_PASS=aplikasi_khusus_password_anda
