@@ -1,0 +1,12 @@
+# Rahasia
+*.env
+*.key
+*.json
+*.pem
+
+# Umum
+vendor/
+node_modules/
+.DS_Store
+.env.local
+.env.*

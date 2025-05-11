@@ -1,0 +1,1635 @@
+DEBUG - 2025-04-28 00:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 00:19:51 --> CSRF token verified.
+DEBUG - 2025-04-28 00:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 00:20:50 --> CSRF token verified.
+DEBUG - 2025-04-28 00:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-28 00:20:54 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 81.
+ 1 APPPATH\Views\dashboard-operator.php(81): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(171): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-28 00:20:54 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 96.
+ 1 APPPATH\Views\dashboard-operator.php(96): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(171): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 00:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 00:21:42 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 00:21:57 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 00:24:33 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 00:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 00:25:18 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 00:28:53 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 00:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 00:29:44 --> CSRF token verified.
+DEBUG - 2025-04-28 00:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 00:29:58 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 00:31:30 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 00:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 00:32:05 --> CSRF token verified.
+DEBUG - 2025-04-28 00:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 00:34:20 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 00:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 00:37:03 --> CSRF token verified.
+DEBUG - 2025-04-28 00:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:39:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 00:39:52 --> CSRF token verified.
+DEBUG - 2025-04-28 00:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 00:41:48 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: usulan/tambah]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('usulan/tambah', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 00:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 00:42:29 --> CSRF token verified.
+DEBUG - 2025-04-28 00:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 00:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 00:48:02 --> ErrorException: Undefined array key "surat_usulan"
+[Method: GET, Route: dashboard/operator]
+in APPPATH\Views\dashboard-operator.php on line 339.
+ 1 APPPATH\Views\dashboard-operator.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "surat_usulan"', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php', 339)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(171): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 00:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:07:17 --> CSRF token verified.
+ERROR - 2025-04-28 04:07:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'romantis_db', 3306, '', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\romantis\app\Controllers\AuthController.php(59): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\AuthController->process()
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\romantis\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\romantis\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\romantis\app\Controllers\AuthController.php(59): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\AuthController->process()
+#7 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-04-28 04:07:22 --> Login error: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-04-28 04:07:32 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login/process', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:07:38 --> CSRF token verified.
+DEBUG - 2025-04-28 04:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:08:30 --> CSRF token verified.
+DEBUG - 2025-04-28 04:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:09:50 --> CSRF token verified.
+DEBUG - 2025-04-28 04:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:13:13 --> CSRF token verified.
+DEBUG - 2025-04-28 04:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:13:41 --> CSRF token verified.
+DEBUG - 2025-04-28 04:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 04:13:45 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: manajemen/update/8]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('manajemen/update/8', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:14:31 --> CSRF token verified.
+DEBUG - 2025-04-28 04:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 04:14:38 --> CodeIgniter\Security\Exceptions\SecurityException: The action you requested is not allowed.
+[Method: POST, Route: manajemen/update/8]
+in SYSTEMPATH\Security\Security.php on line 262.
+ 1 SYSTEMPATH\Security\Security.php(262): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(52): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(241): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('manajemen/update/8', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:15:02 --> CSRF token verified.
+DEBUG - 2025-04-28 04:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:15:41 --> CSRF token verified.
+DEBUG - 2025-04-28 04:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:18:51 --> CSRF token verified.
+DEBUG - 2025-04-28 04:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:19:20 --> CSRF token verified.
+DEBUG - 2025-04-28 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:23:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:23:58 --> CSRF token verified.
+DEBUG - 2025-04-28 04:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:29:14 --> CSRF token verified.
+DEBUG - 2025-04-28 04:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:29:47 --> CSRF token verified.
+DEBUG - 2025-04-28 04:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:30:08 --> CSRF token verified.
+DEBUG - 2025-04-28 04:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 04:30:10 --> mysqli_sql_exception: Unknown column 'disposisi_id' in 'where clause' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(`jum...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jum...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jum...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jum...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\romantis\app\Controllers\DashboardController.php(147): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+#7 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-28 04:30:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'disposisi_id' in 'where clause'
+[Method: GET, Route: dashboard/operator]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = :disposisi_id:
+AND `tingkat_kompetensi_id` >= :tingkat_kompetensi_id:
+AND `tingkat_kompetensi_id` <= :tingkat_kompetensi_id.3:', [...], false)
+ 2 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\DashboardController.php(147): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 04:30:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'disposisi_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = \'2\'
+AND `tingkat_kompetensi_id` >= 1
+AND `tingkat_kompetensi_id` <= 7')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = \'2\'
+AND `tingkat_kompetensi_id` >= 1
+AND `tingkat_kompetensi_id` <= 7')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = :disposisi_id:
+AND `tingkat_kompetensi_id` >= :tingkat_kompetensi_id:
+AND `tingkat_kompetensi_id` <= :tingkat_kompetensi_id.3:', [...], false)
+ 4 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\DashboardController.php(147): CodeIgniter\Model->__call('get', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 04:30:10 --> [Caused by] mysqli_sql_exception: Unknown column 'disposisi_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = \'2\'
+AND `tingkat_kompetensi_id` >= 1
+AND `tingkat_kompetensi_id` <= 7', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = \'2\'
+AND `tingkat_kompetensi_id` >= 1
+AND `tingkat_kompetensi_id` <= 7')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = \'2\'
+AND `tingkat_kompetensi_id` >= 1
+AND `tingkat_kompetensi_id` <= 7')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`jumlah`) AS `jumlah`
+FROM `kompetensi_disetujui`
+WHERE `disposisi_id` = :disposisi_id:
+AND `tingkat_kompetensi_id` >= :tingkat_kompetensi_id:
+AND `tingkat_kompetensi_id` <= :tingkat_kompetensi_id.3:', [...], false)
+ 5 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\DashboardController.php(147): CodeIgniter\Model->__call('get', [])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 04:35:41 --> ErrorException: Undefined variable $disposisiId
+[Method: GET, Route: dashboard/operator]
+in APPPATH\Controllers\DashboardController.php on line 135.
+ 1 APPPATH\Controllers\DashboardController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disposisiId', 'C:\\xampp\\htdocs\\romantis\\app\\Controllers\\DashboardController.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 04:35:43 --> ErrorException: Undefined variable $disposisiId
+[Method: GET, Route: dashboard/operator]
+in APPPATH\Controllers\DashboardController.php on line 135.
+ 1 APPPATH\Controllers\DashboardController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disposisiId', 'C:\\xampp\\htdocs\\romantis\\app\\Controllers\\DashboardController.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 04:35:44 --> ErrorException: Undefined variable $disposisiId
+[Method: GET, Route: dashboard/operator]
+in APPPATH\Controllers\DashboardController.php on line 135.
+ 1 APPPATH\Controllers\DashboardController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disposisiId', 'C:\\xampp\\htdocs\\romantis\\app\\Controllers\\DashboardController.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-28 04:38:46 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 81.
+ 1 APPPATH\Views\dashboard-operator.php(81): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(189): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-28 04:38:46 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 96.
+ 1 APPPATH\Views\dashboard-operator.php(96): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(189): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-28 04:40:25 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 81.
+ 1 APPPATH\Views\dashboard-operator.php(81): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(189): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-28 04:40:25 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 96.
+ 1 APPPATH\Views\dashboard-operator.php(96): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(189): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-04-28 04:40:47 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 81.
+ 1 APPPATH\Views\dashboard-operator.php(81): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(189): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-04-28 04:40:47 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\dashboard-operator.php on line 96.
+ 1 APPPATH\Views\dashboard-operator.php(96): number_format(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-operator.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-operator', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(189): view('dashboard-operator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->operator()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 04:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:42:21 --> CSRF token verified.
+DEBUG - 2025-04-28 04:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 04:42:45 --> CSRF token verified.
+DEBUG - 2025-04-28 04:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:42:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 04:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 05:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:00:08 --> ErrorException: Undefined variable $tabelData
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 262.
+ 1 APPPATH\Views\dashboard-admin.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabelData', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 262)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(323): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:00:14 --> ErrorException: Undefined variable $tabelData
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 262.
+ 1 APPPATH\Views\dashboard-admin.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tabelData', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 262)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(323): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:08:15 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:08:17 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:08:18 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:08:18 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:10:14 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:10:17 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:10:17 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:10:18 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:10:19 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:10:19 --> Error: Call to a member function getCurrentPage() on null
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 310.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 4 APPPATH\Controllers\DashboardController.php(331): view('dashboard-admin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 05:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:15:28 --> ErrorException: Undefined variable $usulan
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Controllers\DashboardController.php on line 326.
+ 1 APPPATH\Controllers\DashboardController.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulan', 'C:\\xampp\\htdocs\\romantis\\app\\Controllers\\DashboardController.php', 326)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 05:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 05:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 05:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:24:05 --> Error: Call to a member function paginate() on array
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Controllers\DashboardController.php on line 265.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:25:38 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(286): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:28:28 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(315): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(291): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:29:20 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(315): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(291): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:29:30 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(315): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(291): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:29:31 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(315): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(291): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:32:06 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:34:23 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:34:25 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:34:26 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:34:27 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:35:39 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(316): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(365): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:37:13 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(316): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(365): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:37:18 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(316): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(365): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:37:20 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(316): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(365): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:38:28 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 05:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 05:39:03 --> TypeError: CodeIgniter\Pager\Pager::getTotal(): Return value must be of type int, null returned
+[Method: GET, Route: dashboard/admin]
+in SYSTEMPATH\Pager\Pager.php on line 199.
+ 1 APPPATH\Views\dashboard-admin.php(297): CodeIgniter\Pager\Pager->getTotal('usulan')
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 08:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 08:33:07 --> CSRF token verified.
+ERROR - 2025-04-28 08:33:14 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\romantis\app\Controllers\AuthController.php(59): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\AuthController->process()
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-28 08:33:14 --> Login error: MySQL server has gone away
+DEBUG - 2025-04-28 08:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 08:33:30 --> CSRF token verified.
+DEBUG - 2025-04-28 08:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 08:33:33 --> ErrorException: Undefined variable $persetujuanRate
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Views\dashboard-admin.php on line 118.
+ 1 APPPATH\Views\dashboard-admin.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $persetujuanRate', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php', 118)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\dashboard-admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard-admin', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(344): view('dashboard-admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 08:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 08:34:13 --> CSRF token verified.
+DEBUG - 2025-04-28 08:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 08:35:29 --> CSRF token verified.
+DEBUG - 2025-04-28 08:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 08:46:22 --> ErrorException: Undefined array key "nomor_surat"
+[Method: GET, Route: disposisi/25]
+in APPPATH\Views\disposisi.php on line 22.
+ 1 APPPATH\Views\disposisi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_surat"', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('disposisi', [], true)
+ 5 APPPATH\Controllers\DisposisiController.php(65): view('disposisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 08:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 08:46:39 --> CSRF token verified.
+DEBUG - 2025-04-28 08:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 08:46:59 --> CSRF token verified.
+DEBUG - 2025-04-28 08:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 08:56:45 --> CSRF token verified.
+DEBUG - 2025-04-28 08:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 08:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 08:57:55 --> ErrorException: Undefined array key "nomor_surat"
+[Method: GET, Route: disposisi/25]
+in APPPATH\Views\disposisi.php on line 22.
+ 1 APPPATH\Views\disposisi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_surat"', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('disposisi', [], true)
+ 5 APPPATH\Controllers\DisposisiController.php(65): view('disposisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 08:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 09:00:56 --> ErrorException: Undefined array key "nomor_surat"
+[Method: GET, Route: disposisi/25]
+in APPPATH\Views\disposisi.php on line 22.
+ 1 APPPATH\Views\disposisi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_surat"', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('disposisi', [], true)
+ 5 APPPATH\Controllers\DisposisiController.php(65): view('disposisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 09:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 09:02:16 --> ErrorException: Undefined array key "nomor_surat"
+[Method: GET, Route: disposisi/25]
+in APPPATH\Views\disposisi.php on line 22.
+ 1 APPPATH\Views\disposisi.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nomor_surat"', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('disposisi', [], true)
+ 5 APPPATH\Controllers\DisposisiController.php(65): view('disposisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 09:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 09:18:32 --> ErrorException: Undefined variable $akun
+[Method: GET, Route: disposisi/25]
+in APPPATH\Views\disposisi.php on line 66.
+ 1 APPPATH\Views\disposisi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akun', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('disposisi', [], true)
+ 5 APPPATH\Controllers\DisposisiController.php(65): view('disposisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 09:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 09:20:46 --> mysqli_sql_exception: Unknown column 'usulan.nomor_surat' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usulan`...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usulan`...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usulan`...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usulan`...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(49): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-04-28 09:20:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usulan.nomor_surat' in 'field list'
+[Method: GET, Route: disposisi/25]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = :usulan.id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\DisposisiController.php(49): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 09:20:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usulan.nomor_surat' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = \'25\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = \'25\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = :usulan.id:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\DisposisiController.php(49): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 09:20:46 --> [Caused by] mysqli_sql_exception: Unknown column 'usulan.nomor_surat' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = \'25\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = \'25\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = \'25\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `usulan`.`id`, `usulan`.`nomor_surat`, `usulan`.`tanggal_usulan`, `usulan`.`surat_usulan`, `usulan`.`berkas_usulan`, `akun`.`nama` AS `nama_operator`, `akun`.`email`, `akun`.`nomor_hp`, `instansi`.`nama_instansi`
+FROM `usulan`
+JOIN `akun` ON `akun`.`id` = `usulan`.`akun_id`
+JOIN `instansi` ON `instansi`.`id` = `akun`.`id_instansi`
+WHERE `usulan`.`id` = :usulan.id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\DisposisiController.php(49): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 09:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 09:22:41 --> ErrorException: Undefined variable $akun
+[Method: GET, Route: disposisi/25]
+in APPPATH\Views\disposisi.php on line 66.
+ 1 APPPATH\Views\disposisi.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akun', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('disposisi', [], true)
+ 5 APPPATH\Controllers\DisposisiController.php(59): view('disposisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 09:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 09:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 12:32:51 --> CSRF token verified.
+DEBUG - 2025-04-28 12:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 12:39:44 --> ErrorException: Undefined variable $akunList
+[Method: GET, Route: disposisi/25]
+in APPPATH\Views\disposisi.php on line 100.
+ 1 APPPATH\Views\disposisi.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $akunList', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php', 100)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\disposisi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('disposisi', [], true)
+ 5 APPPATH\Controllers\DisposisiController.php(69): view('disposisi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DisposisiController->index('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 12:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 12:54:36 --> CSRF token verified.
+DEBUG - 2025-04-28 12:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 12:54:36 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+DEBUG - 2025-04-28 12:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 12:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 12:56:08 --> CSRF token verified.
+DEBUG - 2025-04-28 12:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 12:56:09 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+DEBUG - 2025-04-28 12:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 12:56:48 --> CSRF token verified.
+DEBUG - 2025-04-28 12:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 12:56:48 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+DEBUG - 2025-04-28 12:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:01:08 --> CSRF token verified.
+DEBUG - 2025-04-28 13:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 13:01:11 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(106): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+DEBUG - 2025-04-28 13:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:02:03 --> CSRF token verified.
+DEBUG - 2025-04-28 13:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 13:02:03 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(106): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+DEBUG - 2025-04-28 13:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:07:31 --> CSRF token verified.
+DEBUG - 2025-04-28 13:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 13:07:31 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-04-28 13:07:31 --> Error Disposisi: Unknown column 'catatan' in 'field list'
+DEBUG - 2025-04-28 13:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:08:11 --> CSRF token verified.
+DEBUG - 2025-04-28 13:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 13:08:11 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-04-28 13:08:11 --> Error Disposisi: Unknown column 'catatan' in 'field list'
+DEBUG - 2025-04-28 13:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:10:47 --> CSRF token verified.
+DEBUG - 2025-04-28 13:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 13:10:47 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-04-28 13:10:47 --> Unknown column 'catatan' in 'field list'
+DEBUG - 2025-04-28 13:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:11:11 --> CSRF token verified.
+DEBUG - 2025-04-28 13:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-28 13:11:12 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\romantis\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\romantis\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\romantis\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\romantis\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\romantis\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\romantis\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\romantis\app\Controllers\DisposisiController.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\romantis\system\CodeIgniter.php(933): App\Controllers\DisposisiController->tambah()
+#9 C:\xampp\htdocs\romantis\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DisposisiController))
+#10 C:\xampp\htdocs\romantis\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\romantis\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\romantis\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\romantis\public\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+ERROR - 2025-04-28 13:11:12 --> Unknown column 'catatan' in 'field list'
+DEBUG - 2025-04-28 13:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:12:08 --> CSRF token verified.
+DEBUG - 2025-04-28 13:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 13:20:33 --> ErrorException: Undefined variable $usulanId
+[Method: GET, Route: dashboard/admin]
+in APPPATH\Controllers\DashboardController.php on line 211.
+ 1 APPPATH\Controllers\DashboardController.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulanId', 'C:\\xampp\\htdocs\\romantis\\app\\Controllers\\DashboardController.php', 211)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->admin()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 13:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 13:32:53 --> ErrorException: Undefined variable $usulan
+[Method: GET, Route: rekomendasi/3]
+in APPPATH\Views\rekomendasi.php on line 55.
+ 1 APPPATH\Views\rekomendasi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulan', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rekomendasi', [], true)
+ 5 APPPATH\Controllers\RekomendasiController.php(74): view('rekomendasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RekomendasiController->index('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekomendasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 13:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:41:45 --> CSRF token verified.
+DEBUG - 2025-04-28 13:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 13:46:48 --> CSRF token verified.
+DEBUG - 2025-04-28 13:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 13:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 13:46:55 --> ErrorException: Undefined variable $usulan
+[Method: GET, Route: rekomendasi/3]
+in APPPATH\Views\rekomendasi.php on line 55.
+ 1 APPPATH\Views\rekomendasi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulan', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rekomendasi', [], true)
+ 5 APPPATH\Controllers\RekomendasiController.php(74): view('rekomendasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RekomendasiController->index('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekomendasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 13:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 13:52:23 --> ErrorException: Undefined variable $usulan
+[Method: GET, Route: rekomendasi/3]
+in APPPATH\Views\rekomendasi.php on line 55.
+ 1 APPPATH\Views\rekomendasi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulan', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rekomendasi', [], true)
+ 5 APPPATH\Controllers\RekomendasiController.php(80): view('rekomendasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RekomendasiController->index('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekomendasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 13:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 13:52:27 --> ErrorException: Undefined variable $usulan
+[Method: GET, Route: rekomendasi/3]
+in APPPATH\Views\rekomendasi.php on line 55.
+ 1 APPPATH\Views\rekomendasi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulan', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rekomendasi', [], true)
+ 5 APPPATH\Controllers\RekomendasiController.php(80): view('rekomendasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RekomendasiController->index('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekomendasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 13:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 13:52:27 --> ErrorException: Undefined variable $usulan
+[Method: GET, Route: rekomendasi/3]
+in APPPATH\Views\rekomendasi.php on line 55.
+ 1 APPPATH\Views\rekomendasi.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulan', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rekomendasi', [], true)
+ 5 APPPATH\Controllers\RekomendasiController.php(80): view('rekomendasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RekomendasiController->index('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekomendasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 13:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-28 13:56:18 --> ErrorException: Undefined variable $usulan
+[Method: GET, Route: rekomendasi/3]
+in APPPATH\Views\rekomendasi.php on line 62.
+ 1 APPPATH\Views\rekomendasi.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usulan', 'C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php', 62)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\romantis\\app\\Views\\rekomendasi.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rekomendasi', [], true)
+ 5 APPPATH\Controllers\RekomendasiController.php(80): view('rekomendasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RekomendasiController->index('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekomendasiController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(64): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-28 13:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 14:53:43 --> CSRF token verified.
+DEBUG - 2025-04-28 14:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 14:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 15:16:55 --> CSRF token verified.
+DEBUG - 2025-04-28 15:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:26:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-04-28 15:28:46 --> CSRF token verified.
+DEBUG - 2025-04-28 15:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-28 15:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,36 @@
+.page-title {
+    color: black; /* Ubah dari var(--primary) ke hitam */
+    font-weight: 700;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.page-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 3px;
+    background-color: var(--accent);
+}
+
+.info-label {
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.info-value {
+    padding: 8px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border-left: 3px solid var(--accent);
+}
+
+.file-link {
+    text-decoration: none;
+}
+
+.file-link:hover {
+    text-decoration: underline;
+}

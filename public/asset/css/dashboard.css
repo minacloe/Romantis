@@ -1,0 +1,271 @@
+
+
+/* Info Card */
+.info-card {
+    height: 100%;
+}
+
+.info-card h5 {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.info-card .value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 2px;
+}
+
+.info-card .label {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.info-card .card-body {
+    padding: 10px !important;
+}
+
+/* Layout Helpers for Dashboard */
+.row-equal-height {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px !important;
+}
+
+.row-equal-height > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px !important;
+    padding-right: 10px !important;
+    margin-bottom: 8px !important;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 5px !important;
+}
+
+.col-md-6, .col-lg-3, .col-md-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.card.table-container {
+    margin: 0 5px 15px 5px;
+    padding: 0;
+}
+
+/* Responsive for Dashboard */
+@media (max-width: 768px) {
+    .main-content {
+        padding: 15px;
+    }
+
+    .chart-container {
+        height: 200px;
+        min-height: 200px;
+    }
+}
+
+/* Chart Container Styles */
+.chart-container {
+    position: relative;
+    width: 100%;
+    min-height: 280px;
+}
+
+
+.bg-orange-pastel {
+    background-color: #FFF3E0 !important; /* Oranye pastel */
+}
+
+/* Card Styles */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 1rem 1.25rem;
+}
+
+/* Dropdown Styles */
+.dropdown-toggle {
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #495057;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem 0;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1.25rem;
+    transition: all 0.2s ease;
+}
+
+
+
+/* Hover effect */
+.btn-outline-dark:hover {
+    background-color: transparent !important;
+    border-color: rgba(0,0,0,0.3) !important;
+    color: #212529 !important;
+}
+
+
+
+/* Dropdown menu item hover */
+.dropdown-item:hover {
+    color: #212529;
+}
+
+/* Table Styles */
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.02);
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.03);
+    border-spacing: 0;
+}
+
+.table thead th {
+    border-bottom: none;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #6c757d;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.table tbody tr {
+    position: relative;
+}
+
+.table tbody tr:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 1.5rem;
+    right: 1.5rem;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Search Bar */
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+}
+
+.search-container .form-control {
+    padding-left: 2.5rem;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.search-container .form-control:focus {
+    background-color: white;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1) !important;
+}
+
+/* Avatar */
+.avatar-sm {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .table-responsive {
+        border-radius: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    
+    .search-container {
+        margin-top: 1rem;
+        max-width: 100%;
+    }
+}
+
+/* Warna teks yang lebih gelap */
+.text-primary-dark {
+    color: #0d6efd !important; /* Warna primary lebih gelap */
+}
+
+.text-info-dark {
+    color: #0dcaf0 !important; /* Warna info lebih gelap */
+}
+
+/* Badge styling */
+.badge {
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+/* Icons in badges */
+.badge i {
+    font-size: 0.8em;
+}
+
+/* Pagination Custom Style */
+.pagination-custom .page-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    border: none;
+}
+
+.pagination-custom .page-btn:hover {
+    background-color: rgba(255, 111, 0, 0.1);
+    color: var(--primary-dark);
+    transform: scale(1.05);
+}
+
+.pagination-custom .page-btn.active {
+    background-color: var(--primary);
+    color: white;
+    font-weight: 600;
+}
+
