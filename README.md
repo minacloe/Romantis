@@ -89,3 +89,7 @@ Edit `.env` sesuai konfigurasi lokal (email, database, Firebase).
   ```
 - Import struktur dan data ke phpMyAdmin secara manual.
 - Email dan password pengguna harus **sesuai** dengan yang terdaftar di Firebase Authentication.
+
+## 📝 Lisensi
+
+Proyek ini dilisensikan dengan [MIT License](LICENSE).
