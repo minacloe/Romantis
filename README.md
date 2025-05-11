@@ -1,4 +1,4 @@
-# 💘 Romantis
+# Romantis
 
 **Romantis** merupakan proyek rekomendasi antara *statistisi* dan *pranata komputer (prakom)* dalam bentuk sistem berbasis web yang menggunakan **CodeIgniter 4**. Sistem ini mendukung tiga jenis pengguna utama: **Operator**, **Admin**, dan **Super Admin**.
 
